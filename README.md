@@ -1,4 +1,4 @@
-# Interpolation Submodule
+# Kit-forge Interpolation Submodule
 
 Mathematical interpolation kernels for 1D, 2D, and 3D geometry deformation workflows.
 

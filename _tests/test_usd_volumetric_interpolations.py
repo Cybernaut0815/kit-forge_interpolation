@@ -29,17 +29,19 @@ from importlib import reload
 # Loading the geometry
 # =========================================
 
-quad_high_poly_mesh_path = r"resources/vaults/usd/Quad_TestVault_highPoly.usd"
-quad_low_poly_mesh_path = r"resources/vaults/usd/Quad_TestVault_lowPoly.usd"
+input_dir = Path(__file__).resolve().parent / "input"
 
-tri_high_poly_mesh_path = r"resources/vaults/usd/Tri_TestVault_highPoly.usd"
-tri_low_poly_mesh_path = r"resources/vaults/usd/Tri_TestVault_lowPoly.usd"
+quad_high_poly_mesh_path = str(input_dir / "Quad_TestVault_highPoly.usd")
+quad_low_poly_mesh_path = str(input_dir / "Quad_TestVault_lowPoly.usd")
 
-tetra_high_poly_mesh_path = r"resources/vaults/usd/Tetra_TestVault_highPoly.usd"
-tetra_low_poly_mesh_path = r"resources/vaults/usd/Tetra_TestVault_lowPoly.usd"
+tri_high_poly_mesh_path = str(input_dir / "Tri_TestVault_highPoly.usd")
+tri_low_poly_mesh_path = str(input_dir / "Tri_TestVault_lowPoly.usd")
 
-penta_high_poly_mesh_path = r"resources/vaults/usd/Penta_TestVault_highPoly.usd"
-penta_low_poly_mesh_path = r"resources/vaults/usd/Penta_TestVault_lowPoly.usd"
+tetra_high_poly_mesh_path = str(input_dir / "Tetra_TestVault_highPoly.usd")
+tetra_low_poly_mesh_path = str(input_dir / "Tetra_TestVault_lowPoly.usd")
+
+penta_high_poly_mesh_path = str(input_dir / "Penta_TestVault_highPoly.usd")
+penta_low_poly_mesh_path = str(input_dir / "Penta_TestVault_lowPoly.usd")
 
 mesh_paths = [quad_high_poly_mesh_path, 
                 quad_low_poly_mesh_path, 
