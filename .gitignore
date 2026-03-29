@@ -1,0 +1,15 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Local test outputs
+_tests/output/*.usd
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
