@@ -13,3 +13,5 @@ _tests/output/*.usd
 .DS_Store
 Thumbs.db
 .vscode/
+
+_test/output/
