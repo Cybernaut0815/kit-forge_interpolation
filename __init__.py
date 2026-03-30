@@ -20,7 +20,17 @@ from .planar import (
     # Quadrilateral - Projective
     projective_interpolation_quad,
     reverse_projective_interpolation_quad,
-    reverse_projective_interpolation_quad_with_tangents
+    reverse_projective_interpolation_quad_with_tangents,
+    # Quadrilateral - Subdivided
+    subdivided_bilinear_interpolation_quad,
+    subdivided_reverse_bilinear_interpolation_quad,
+    subdivided_reverse_bilinear_interpolation_quad_with_tangents
+)
+
+# Subdivision
+from .subdivision import (
+    bilinear_subdivide,
+    catmull_clark_subdivide
 )
 
 # Volumetric (3D) interpolation
@@ -59,6 +69,13 @@ __all__ = [
     'projective_interpolation_quad',
     'reverse_projective_interpolation_quad',
     'reverse_projective_interpolation_quad_with_tangents',
+    # Planar (2D) - Subdivided Quadrilateral
+    'subdivided_bilinear_interpolation_quad',
+    'subdivided_reverse_bilinear_interpolation_quad',
+    'subdivided_reverse_bilinear_interpolation_quad_with_tangents',
+    # Subdivision
+    'bilinear_subdivide',
+    'catmull_clark_subdivide',
     # Volumetric (3D) - Tetrahedron
     'barycentric_interpolation_tetrahedron',
     'reverse_barycentric_interpolation_tetrahedron',
